@@ -1,8 +1,16 @@
 body {
-    background-color: aqua;
+    background-color: rgb(217, 225, 225);
     text-align: center;
 }
 
 h1 {
     text-decoration: underline;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    max-height: 650px;
+    /* Limit max height for better viewing */
+    object-fit: inherit;
 }
